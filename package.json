@@ -1,14 +1,17 @@
 {
   "name": "react-native-rnkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Native UI kit",
   "main": "index.js",
+  "directories": {
+    "example": "rnkitExample"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjyas/rnkit.git"
+    "url": "git+https://github.com/bjyas/react-native-rnkit.git"
   },
   "keywords": [
     "React-Native",
@@ -22,8 +25,11 @@
   },
   "homepage": "https://github.com/bjyas/rnkit#readme",
   "dependencies": {
-    "tcomb-form-native": "^0.5.0",
-    "react-native-image-zoom": "^0.24.0"
+    "@remobile/react-native-toast": "^1.0.4",
+    "react": "^15.2.0",
+    "react-native": "^0.30.0",
+    "react-native-image-zoom": "^0.27.0",
+    "tcomb-form-native": "^0.6.0"
   },
   "peerDependencies": {}
 }
