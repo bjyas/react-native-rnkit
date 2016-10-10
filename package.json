@@ -1,6 +1,6 @@
 {
   "name": "react-native-rnkit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React Native UI kit",
   "main": "index.js",
   "directories": {
@@ -26,7 +26,8 @@
   "homepage": "https://github.com/bjyas/rnkit#readme",
   "dependencies": {
     "@remobile/react-native-toast": "^1.0.4",
-    "react-native-gallery": "0.0.17",
+    "react-native-actionsheet": "^2.0.4",
+    "react-native-photo-browser": "^0.2.2",
     "tcomb-form-native": "^0.6.0"
   },
   "peerDependencies": {}
